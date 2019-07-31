@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import "reset.css"/*tpa=http://www.taifengdichan.com/templets/wap/css/reset.css*/;
+
+
+p{ padding-bottom:10px;line-height:200%;}
+td,tr{ margin:0; padding:0;}
+a { color: #666;font: 22px/24px "微软雅黑","华文细黑",Arial,sans-serif; }
+.fl{ float:left}
+.fr{ float:right}
+.clear{ clear:both;}
+.swiper-slide .title { font-style: italic; font-size: 42px; margin-top: 80px; margin-bottom: 0; line-height: 45px;}
+.swiper-slide p {font-style: italic;font-size: 25px;}
+.pagination { position: absolute; z-index: 20; left: 50%; bottom: 10px;}
+.swiper-pagination-switch { display: inline-block; width: 8px;height: 8px; border-radius: 8px; background: #fff; margin-right: 5px; border: 1px solid #fff; cursor: pointer;}
+.swiper-active-switch {background: #bd2923;border: #bd2923 1px solid; width: 8px; height: 8px;}
+.swiper-dynamic-links { text-align: center;}
+.swiper-dynamic-links a { display: inline-block; padding: 5px; border-radius: 3px; border: 1px solid #ccc; margin: 5px; font-size: 12px; text-decoration: none; color: #333; background: #eee;}
+
+.w640{width: 640px;margin: 0 auto; background:#FFF no-repeat;}
+.w640_nobg{width: 640px; height:100px;margin: 0 auto; z-index:9999;}
+header{height: 100px;z-index: 9999; position:fixed; background:#FFF;}
+header .box{width: 640px; height: 100px;}
+header .box .phone{width: 79px;height: 50px;border-right: 1px solid #ddd;margin-top: 15px;float: left;}
+header .box .phone img{margin-left: 31px;padding-top: 10px;}
+header .box .logo_top,.box2 .logo_top{float: left;width: 539px;}
+header .box .logo_top a,.box2 .logo_top a{ width:303px; height:56px; float:left;}
+header .box .logo_top img,.box2 .logo_top img{ margin-top:30px; margin-left:30px;}
+header .box .menu{width:99px;height: 70px;margin-top:15px;float:right; border-left:#CCC 1px solid;}
+header .box2{width: 640px;height: 100px;display: none;}
+header .box2 .clear1{height: 100px;width: 640px;}
+header .box2 .menu{width:99px;height:70px;margin-top:15px;float: right;border-left:#CCC 1px solid;}
+header .box2 .menu img{  margin-top:15px;}
+header .box2 .searcher{margin-left: 20px;width: 420px;height: 45px;background: url("bg3.jpg"/*tpa=http://www.taifengdichan.com/templets/wap/img/bg3.jpg*/) no-repeat;float: left;margin-top: 18px;}
+header .box2 .searcher .inpu{width: 375px;padding: 7px 2px;border: none;font-size: 22px;margin-top: 3px;margin-left: 2px;}
+header .box2 .searcher .sub{width:18px;height: 18px;background: url("search.png"/*tpa=http://www.taifengdichan.com/templets/wap/img/search.png*/) no-repeat; border: none;}
+header .menu_list ul li{min-height: 70px;width: 640px;background:#f6f6f6;}
+header .menu_list ul li .li a{display: block;font-size: 30px;color: #333333;line-height: 70px;padding-left: 30px; text-decoration:none;}
+header .menu_list ul li:hover .li a{display: block;font-size: 30px;color: #b67137;line-height: 70px;padding-left: 30px;}
+header .menu_list ul li.hover .li a{display: block;font-size: 30px;color: #b67137;line-height: 70px;padding-left: 30px;}
+header .menu_list ul li .li{background: url("tb6.png"/*tpa=http://www.taifengdichan.com/templets/wap/img/tb6.png*/) no-repeat 595px 27px; border-bottom: 1px solid #e5e5e5;}
+header .menu_list ul li:hover .li{background: url("tb5.png"/*tpa=http://www.taifengdichan.com/templets/wap/img/tb5.png*/) no-repeat 595px 30px;}
+header .menu_list ul li.hover .li{background: url("tb5.png"/*tpa=http://www.taifengdichan.com/templets/wap/img/tb5.png*/) no-repeat 595px 30px;}
+
+header .menu_list ul li .dl_box{background: #fff;padding: 0px 0px;display: none; border-bottom:1px #e5e5e5 solid;}
+header .menu_list ul li .dl_box dl dt{height: 52px;width: 580px;margin-left: 30px;background: url("tb7.png"/*tpa=http://www.taifengdichan.com/templets/wap/img/tb7.png*/) no-repeat 10px 22px;}
+header .menu_list ul li .dl_box dl dt a{line-height: 52px;font-size: 24px;display: block;padding-left: 32px; color:#3c3c3c;}
+

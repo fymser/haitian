@@ -1,0 +1,654 @@
+html{*overflow:auto;_overflow-y:scroll;}
+body{cursor:default;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-weight:normal;font-style:normal;}
+strong{font-style:normal;}
+ol,ul,li{list-style:none outside none;}
+caption{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;} 
+a{outline:none;cursor:pointer;*outline:expression(this.hideFocus=true);text-decoration:none;}
+img,object{vertical-align:top;}
+input{outline:none;*outline:expression(this.hideFocus=true);}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner{border:none;padding:0;}
+.clear{zoom:1;}
+.clear:after{visibility:hidden;display:block;font-size:0;content:"1";clear:both;height:0;}
+.fle{float:left;_display:inline;}
+.fri{float:right;_display:inline;}
+
+
+
+/* resat */
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+input{
+	-webkit-appearance: none;
+}
+
+
+
+/* public */
+.content{
+	padding:5%;
+	border-bottom:1px dashed #b7b7b7;
+}
+.header .style-t{
+	background:#c41632;
+	color:#fff;
+	font-size:18px;
+	padding:2%;
+	text-align:center;
+}
+.s-border{
+	border:none;
+}
+
+
+
+/* selectä¸‹æ‹‰æ¡† */
+.a-select-style{
+	width:84%;
+	-webkit-appearance: none;
+	padding: 13px 0px 13px 6px;
+	border:none;
+	color:#999;
+	position:relative;
+	z-index:2;
+	background:rgba(0,0,0,0);
+}
+.a-input-style .b-btn-style1{
+	border-left: 1px solid #ccc;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+	background:url("icon11.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon11.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon11.png*/ no-repeat center;
+	background-size:23px;
+}
+
+
+/* textatreæ–‡æœ¬åŸŸ */
+.textarea textarea{
+	width: 93%;
+	color:#999;
+	border:1px solid #cccccc;
+	border-radius:5px;
+	padding:10px 10px;
+	height:80px;
+	-webkit-appearance: none;
+	line-height:23px;
+}
+
+
+
+/* ä¿å­˜æäº¤æŒ‰é’® */
+.btn-an{
+	background:#c41632;
+	margin-top:5%;
+}
+.btn-an span{
+	font-size:16px;
+	color:#fff;
+	display: inline-block;
+	line-height: 35px;
+	height:35px;
+	margin-top:0px;
+}
+.btn-wrpsa{
+	overflow:hidden;
+	width:146px;
+	margin:0 auto;
+	text-align:center;
+}
+.btn-wrpsa .b-btn-kuai{
+	width:35px;
+	height:35px;
+	display:inline-block;
+	float:left;
+	background:url("icon14.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon14.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon14.png*/ no-repeat center;
+	background-size:30px;
+	padding-right:15px;
+	border-right:1px solid #810619;
+}
+.btn-wrpsa .b-btn-kuai1{
+	background:url("icon21.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon21.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon21.png*/ no-repeat center;
+}
+.b-btn-text{
+	border-left:1px solid #ff7c7c;
+	float:left;
+	padding-left:15px;
+}
+
+
+
+/* input-textæ–‡æœ¬æ¡† */
+.a-input-style .icon1{
+	background:url("icon7.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon7.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon7.png*/ no-repeat center;
+}
+.a-input-style .icon2{
+	background:url("icon6.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon6.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon6.png*/ no-repeat center;
+}
+.a-input-style .icon3{
+	background:url("icon5.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon5.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon5.png*/ no-repeat center;
+}
+.a-input-style .icon4{
+	background:url("icon10.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon10.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon10.png*/ no-repeat center;
+}
+.a-input-style .icon5{
+	background:url("icon11.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon11.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon11.png*/ no-repeat center;
+}
+.a-input-style .icon6{
+	background:url("icon13.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon13.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon13.png*/ no-repeat center;
+}
+.a-input-style .icon7{
+	background:url("icon15.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon15.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon15.png*/ no-repeat center;
+}
+.magin-top{
+	margin-top:5%;
+}
+.a-input-style{
+	border:1px solid #ccc;
+	border-radius:5px;
+	overflow:hidden;
+}
+.a-input-style .icon{
+	background-size:23px;
+	display:inline-block;
+	float: left;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+	border-right:1px solid #ccc;
+}
+.a-input-style .a-text{
+	padding:6px;
+	line-height: 25px;
+	border-radius:0;
+	margin-top: 5px;
+	border:none;
+	width:80%;
+	color:#999;
+}
+.a-input-style .right-icon{
+	float:right;
+	border-left:1px solid #ccc;
+	border-right:0;
+}
+.a-input-style .a-text-width{
+	width:62%;
+}
+
+
+/* b-btm-styleæŒ‰é’® */
+.b-btn-style{
+	overflow:hidden;
+}
+.b-btn-style .one-style{
+	background:url("icon12.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon12.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon12.png*/ no-repeat center;
+	background-size:22px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+	float:left;
+}
+.b-btn-style .two-style{
+	border:1px solid #ccc;
+	border-radius:5px;
+	display: inline-block;
+    width: 31%;
+	margin-left: 0%;
+	padding: 15px;
+	text-align:center;
+}
+.b-btn-style .two-style-qh{
+	background:#c41632;
+	color:#fff;
+}
+.b-btn-style .two-wrp{
+	float: left;
+    width: 84%;
+}
+
+
+
+/* é¢„çº¦æç¤º */
+.yy-ts{
+	border-bottom: 1px solid #c41632;
+	border-bottom-left-radius:5px;
+	overflow:hidden;
+}
+.yy-ts span{
+	float:left;
+	font-size:18px;
+	background:#c41632;
+	color:#fff;
+	padding:2% 2% 2% 3%;
+	letter-spacing:2px;
+	border-radius:5px;
+}
+.yy-ts p{
+	margin-left: 21%;
+	font-size:12px;
+}
+
+
+
+/* ç‚¹è¯„ */
+.dianping{
+	margin-top: 16px;
+	overflow:hidden;
+}
+.dianping ul{
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.dianping ul li .left-pl{
+	width:70%;
+	float:left;
+}
+.dianping ul li .left-pl .dianming{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-top:4%;
+}
+.dianping ul li .left-pl p{
+	font-size:14px;
+	line-height:20px;
+}
+.dianping ul li .left-pl .time{
+	margin-top:5%;
+}
+.dianping ul li .left-pl .list-pl{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap; 
+}
+.dianping ul li .right-btn{
+	border:1px solid #ccc;
+	border-radius:5px;
+	float:right;
+	text-align:center;
+	padding: 3% 2%;
+	line-height:25px;
+	width:55px;
+	margin-top:2%;
+}
+.dianping ul li .right-btn img{
+	margin: 0 auto 13%;
+	display:block;
+}
+.dianping ul li{
+	border-bottom: 1px solid #ccc;
+}
+.dianping ul li .wrp{
+	overflow: hidden;
+    padding: 2% 2% 3%;
+}
+.right-btn span{
+	border-top:1px solid #c41632;
+	display:block;
+	padding:2% 1%;
+	font-size:12px;
+}
+.wrp-c{
+	position:relative;
+}
+
+
+/* ç‚¹è¯„æŒ‰é’® */
+.c-btn{
+	left: 0;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 100%;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.c-btn .nob-img{
+	background:url("icon2.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon2.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon2.png*/ no-repeat;
+	background-size:100%;
+	color:#fff;
+	padding:5px;
+	display:inline-block; width: 16px; height:15px;
+}
+.c-btn .weixiu{
+	display: inline-block;
+    padding: 9px 3px 6px 0;
+	width:85px;
+}
+.c-btn .inf{
+	left: 3px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.c-btn .btn-d{
+	margin:0 auto;
+	width:150px;
+}
+.wrp-c .c-btn-wrp{
+	text-align:center;
+}
+.btn-d .xiala{
+	display: inline-block;
+    height: 19px;
+    margin-left: 8px;
+    margin-top: 5px;
+    width: 20px;
+	background:url("icon4.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon4.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon4.png*/ no-repeat;
+	background-size:100%;
+	text-indent:-9999px;
+	vertical-align:middle;
+}
+.btn-d .xiala2{
+	background:url("icon3.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon3.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon3.png*/ no-repeat;
+	background-size:100%;
+}
+
+
+/* é¢„çº¦ä¸“è¥åº— */
+.zyd h1{
+	font-size:16px;
+}
+.address{
+    border-radius: 5px;
+	background:#c41632;
+	overflow:hidden;
+	margin-top:3%;
+}
+.address .wrps{
+	display: inline-block;
+    float: left;
+    line-height: 45px;
+    width: 50%;
+}
+.address .address-icon{
+    display: inline-block;
+    float: left;
+    height: 45px;
+    width: 45px;
+	background:url("icon8.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon8.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon8.png*/ no-repeat center;
+	background-size:23px;
+}
+.address .address-icon2{
+	background:url("icon9.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon9.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon9.png*/ no-repeat center;
+	background-size:25px;
+}
+.address .adddz{
+	line-height: 45px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	display:inline-block;
+	color:#fff;
+	font-size:14px;
+	width: 64%;
+	float:left;
+	padding-right:7px;
+}
+.address .selct-zyd{
+	display: inline-block;
+    float: left;
+    line-height: 45px;
+    width: 30%;
+	color:#fff;
+	border-left:1px solid #fff;
+	padding-left:7px;
+}
+
+
+
+/* åŸŽå¸‚é€‰æ‹© */
+.citylb{
+	position:relative;
+}
+.citylb ul li{
+	margin-left: 2%;
+    margin-right: 7%;
+    padding: 12px 3% 0;
+    text-align: left;
+	border-bottom:1px solid #999999;
+}
+.citylb .bt-city{
+	color:#666666;
+	padding:0 5%;
+}
+.kuaijie{
+	position:absolute;
+    right: 1%;
+    top: 5%;
+	text-align:center;
+}
+.kuaijie a{
+	display:block;
+	font-size:12px;
+	line-height:13px;
+}
+
+
+
+/* é€‰æ‹©ä¸“è¥åº— */
+.address-a{
+	overflow:hidden;
+	margin-top:3%;
+}
+.address-a .wrps-a .font-size-16{
+	font-size:16px;
+	color:#fff;
+}
+.address-a .wrps-a .add-right{
+	display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 55%;
+	color:#000;
+}
+.address-a .qh-city{
+	color:#fff;
+	font-size:14px;
+}
+.zyd-btn-bg{
+	background:#c41632;
+}
+.address-a .wrps-a{
+	display: inline-block;
+    float: left;
+    line-height: 45px;
+    width: 47%;
+	border-radius:5px;
+	padding:1px;
+}
+.address-a .address-icon{
+    display: inline-block;
+    float: left;
+    height: 45px;
+    width: 45px;
+	background:url("icon8.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon8.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon8.png*/ no-repeat center;
+	background-size:23px;
+}
+.address-a .icons1{
+	background:url("icon16.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon16.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon16.png*/ no-repeat center;
+}
+.address-a .bg-red{
+	background:#fff;
+	border:1px solid #000;
+}
+.wrp-border{
+	border:1px solid #adadad;
+	border-radius:5px;
+}
+.wrp-border ul li{
+	padding: 2% 3% 2% 3%;
+	border-bottom:1px solid #adadad;
+	background-size:10px;
+}
+.wrp-border ul li a{
+	display:block;
+	padding-right:5%;
+	background:url("icon17.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon17.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon17.png*/ no-repeat right;
+	background-size:10px;
+}
+.wrp-border ul li a .gl{
+	font-size:12px;
+	color:#798292;
+	line-height:20px;
+}
+.wrp-border ul li a .left-s p{
+	line-height:20px;
+}
+.wrp-border ul li a .left-s .font-size-12{
+	font-size:12px;
+	color:#666666;
+}
+.wrp-border ul li a .left-s .font-size-12 span{
+	font-size:12px;
+	color:#666666;
+}
+
+
+
+/* ä¿é™©è¯¢ä»· */
+.baoxian{
+	margin:5%;
+}
+.baoxian .b-bg-p{
+	display:inline-block;
+	background:url("xj_img_1.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/xj_img_1.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/xj_img_1.png*/ no-repeat;
+	background-size:100% 100%;
+	padding: 2px 20px 2px 10px;
+}
+.baoxian .b-icon-1{
+	display: inline-block;
+    vertical-align: top;
+}
+.baoxian .b-icon-1 img{
+	margin-right: 3px;
+}
+.baoxian .b-icon-text{
+	display: inline-block;
+    line-height: 21px;
+	padding-top:1px;
+}
+.wrp-bd{
+	border:1px solid #cccccc;
+	border-radius:5px;
+}
+.wrp-bd ul li{
+	border-bottom:1px solid #cccccc;
+}
+.wrp-bd ul li .kong{
+	background:url("icon18.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon18.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon18.png*/ no-repeat top;
+	background-size:25px;
+	width:25px;
+	height:25px;
+	display:inline-block;
+	float: right;
+}
+.wrp-bd ul li .curr{
+	background:url("icon18.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon18.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon18.png*/ no-repeat bottom;
+	background-size:25px;
+}
+.wrp-bd ul li .b-click,.wrp-bd ul li .c-click{
+	overflow: hidden;
+    padding: 15px;
+	margin: 0 17px;
+}
+.wrp-bd ul li .c-click select{
+	background:url("icon20.png"/*tpa=http://www.taifengdichan.com/templets/wap/images/wimg/icon20.png*/)/*tpa=http://www.dongvo.com/mx/static/css/images/wimg/icon20.png*/ no-repeat right;
+	border: 0 none;
+    padding: 0 33px 0 0;
+    width: 160px;
+	margin-top: 5px;
+	-webkit-appearance: none;
+}
+.wrp-bd ul li .b-text{
+	float: left;
+    line-height: 25px;
+}
+.b-huadong{
+	width:50px;
+	height:25px;
+	background:#cccccc;
+	border-radius:5px;
+	float:right;
+	padding:1px;
+	position: relative;
+}
+.b-huadong .b-kk{
+	width:23px;
+	height:23px;
+	background:#fff;
+	display:inline-block;
+	border-radius:5px;
+	padding:1px;
+	left: 1px;
+    padding: 1px;
+    position: absolute;
+    top: 1px;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+}
+.b-huadong .b-kk2{
+	left: 26px;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+}
+.b-margin{
+	margin:5%;
+}
+.content .b-top-text{
+	color:#c41632;
+	text-align:center;
+}
+
+
+
+
+/* æˆ‘çš„ä¿é™©è¯¢ä»· */
+.content .d-lb li{
+	border-bottom:1px dashed #b6b6b6;
+}
+.content .d-lb li .d-wrp{
+	overflow:hidden;
+	margin: 5% 20px 0;
+}
+.content .d-lb li .d-wrp .d-right-text{
+	float:right;
+	line-height:40px;
+	font-size:16px;
+	border:1px solid #cccccc;
+	border-radius:5px;
+	padding: 0 20px;
+}
+.content .d-lb li .d-wrp .d-right-text-s{
+	background:#c1c1c1;
+	color:#fff;
+}
+.content .d-lb li .d-wrp .d-texts{
+	float:left;
+	line-height:23px;
+}
+.content .d-lb li .d-wrp .d-texts .d-text-left{
+	font-size:16px;
+}
+.content .d-lb li .d-wrp .d-texts span{
+	display:block;
+	font-size:12px;
+}
+
